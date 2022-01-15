@@ -38,3 +38,42 @@ nav{
     color: black;
     font-weight: 600;
 }
+
+
+/*--------------------------------------------
+Top Banner
+---------------------------------------------*/
+
+.top-banner{
+    display: flex;
+    margin-top: 50px;
+}
+
+.half-portion{
+    width: 50%;
+}
+
+.half-portion h1{
+    font-size: 3em;
+}
+
+.half-portion p{
+    font-weight: 550;
+}
+
+.button-arrow{
+    background-color: rgb(199, 88, 107);
+    padding-left: 20px;
+    padding-right: 5px;
+    border-radius: 25px;
+    margin-left: -1.5px;
+    color: white;
+    font-weight: 700;
+    border-color: white;
+}
+
+.half-portion img{
+    max-width: 70%;
+    margin-left: 120px;
+    margin-top: -50px;
+}
