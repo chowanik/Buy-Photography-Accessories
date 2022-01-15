@@ -80,7 +80,6 @@ Top Banner
     margin-top: -50px;
 }
 
-
 /*----------------------------------------
 horizontal line
 ------------------------------------------*/
@@ -269,3 +268,20 @@ Form
 .footer-icon .icon-color{
     color: white;
 }
+
+
+/*--------------------------
+media queries
+-------------------------*/
+
+/*--------------------------
+mobile devices
+-------------------------*/
+
+@media only screen and (max-width: 688px) {
+    .nav{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
