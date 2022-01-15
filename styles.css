@@ -47,6 +47,7 @@ Top Banner
 .top-banner{
     display: flex;
     margin-top: 50px;
+    margin-bottom: 70px;
 }
 
 .half-portion{
@@ -76,4 +77,107 @@ Top Banner
     max-width: 70%;
     margin-left: 120px;
     margin-top: -50px;
+}
+
+
+/*----------------------------------------
+horizontal line
+------------------------------------------*/
+
+hr{
+    border: 0;
+    height: 1px;
+    margin:18px 0;
+    position:relative;
+    background: -moz-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 10%, rgba(0,0,0,0.65) 50%, rgba(0,0,0,0) 90%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0)), color-stop(10%,rgba(0,0,0,0)), color-stop(50%,rgba(0,0,0,0.65)), color-stop(90%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 10%,rgba(0,0,0,0.65) 50%,rgba(0,0,0,0) 90%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 10%,rgba(0,0,0,0.65) 50%,rgba(0,0,0,0) 90%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 10%,rgba(0,0,0,0.65) 50%,rgba(0,0,0,0) 90%,rgba(0,0,0,0) 100%); /* IE10+ */
+    background: linear-gradient(left, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 10%,rgba(0,0,0,0.65) 50%,rgba(0,0,0,0) 90%,rgba(0,0,0,0) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+}
+
+/*----------------------------------------
+Placing company logos
+------------------------------------------*/
+
+
+.logo-section{
+    max-width: 90%;
+    margin-left: 70px;
+    margin-top: -20px;
+    margin-bottom: -30px;
+}
+.company-logo{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    align-items: center;
+}
+
+.div-logo img{
+    max-width: 55%;
+
+}
+
+
+/*------------------------------------------------
+popular products
+------------------------------------------------*/
+
+.container{
+    margin-top: 100px;
+}
+
+.all-products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: rgb(241, 240, 240);
+    border-radius: 5px;
+}
+
+.product-info{
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.section-title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.product-info .product-banner img{
+    width: 300px;
+    height: 256px;
+}
+
+.fa-star{
+    font-size: 10px;
+}
+
+.fa-star.filled{
+    color: #FFC014;
+    margin-right: -15px;
+}
+
+.fa-star.empty{
+    color: #AEAEAE;
+    margin-right: -15px;
+}
+
+
+.product-rating{
+    display: flex;
+    margin-left: -15px;
+    align-items: center;
+    margin-bottom: -40px;
+    margin-top: -40px;
+}
+
+.container .see-more{
+    margin-left: 1101px;
+    text-decoration: none;
+    color: rgb(199, 88, 107);
+    font-weight: 700;
 }
